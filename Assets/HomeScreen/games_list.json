@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    { 
+      "id": 1,
+      "title": "Chess",
+      "description": "A two-player strategy board game played on a checkered board with 64 squares arranged in an 8×8 grid."
+    },
+    {
+      "id": 2,
+      "title": "Checkers",
+      "description": "A strategy board game for two players which involves diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces."
+    },
+    {
+      "id": 3,
+      "title": "Backgammon",
+      "description": "One of the oldest known board games. Its history can be traced back nearly 5,000 years to archaeological discoveries in the Middle East."
+    }
+  ]
+}

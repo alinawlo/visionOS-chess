@@ -1,0 +1,114 @@
+{
+    "name": "HandTracker",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "ff666030-3f14-45f4-8708-5d9902a6a29d",
+            "actions": [
+                {
+                    "name": "isPinching",
+                    "type": "Value",
+                    "id": "690c712f-ee5d-4c23-8831-3f64fb574ef3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "isPointing",
+                    "type": "Value",
+                    "id": "3e999f79-dd7f-4f7d-aad0-bf07f9d21cd7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PinchPoisiton",
+                    "type": "Value",
+                    "id": "3fceb673-2bae-4b8c-9f64-ff461ce5fc97",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PointPosition",
+                    "type": "Value",
+                    "id": "9746249a-c3f6-4621-a61d-706e71c9614c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HandRotation",
+                    "type": "Value",
+                    "id": "8029e7da-b862-4513-978e-b24501eb995d",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "18d3b23d-9d26-4507-ad33-f4959b744b85",
+                    "path": "<UDPHandTrackingDevice>/pinch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "isPinching",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1f5f8b6-5149-404f-ba77-b5569d6a7675",
+                    "path": "<UDPHandTrackingDevice>/point",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "isPointing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ebd23fc1-94e3-4483-a755-a3809c59aa29",
+                    "path": "<UDPHandTrackingDevice>/pointPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0df1bee-379d-4a28-b70e-795443829bf7",
+                    "path": "<UDPHandTrackingDevice>/pinchPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PinchPoisiton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f727ca65-04a6-4d49-b087-80a5b9a3e386",
+                    "path": "<UDPHandTrackingDevice>/handRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HandRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
